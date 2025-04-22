@@ -1,0 +1,22 @@
+services:
+  redis:
+    image: redis:7
+    container_name: uom-redis-url-shortener-db
+    ports:
+      - "6379:6379"
+  redisinsight:
+    image: redislabs/redisinsight:1.11.0
+    container_name: redisinsight-ui
+    platform: linux/amd64
+    ports:
+      - "8001:8001"
+  python-app:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    container_name: uom-redis-url-shortener-app
+    depends_on:
+      - redis
+    volumes:
+      - ./app:/app
+    entrypoint: ["sleep", "999999"]

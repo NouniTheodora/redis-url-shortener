@@ -1,0 +1,193 @@
+Script started on 2025-04-23 17:28:33+00:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="140" LINES="46"]
+# python mani  in.py
+Welcome to Redis URL Shortener
+Please enter your username or email: Bob
+
+--- Menu ---
+1. Insert new URL
+2. Query short URL
+3. Show statistics
+4. Exit
+Choose an option: 1
+Enter long URL: https://zapier.com/blog/best-url-shorteners/?utm_adgroup=DSA-BestApps-URL_Shorteners
+New short URL created: 4phehl
+
+--- Menu ---
+1. Insert new URL
+2. Query short URL
+3. Show statistics
+4. Exit
+Choose an option: 1
+Enter long URL: https://zapier.com/blog/best-url-shorteners/?utm_adgroup=DSA-BestApps-URL_Shorteners
+URL already exists! Short code: 4phehl
+
+--- Menu ---
+1. Insert new URL
+2. Query short URL
+3. Show statistics
+4. Exit
+Choose an option: https://openeclass.uom.gr/modules/announcements/?course=MAI137&an_id=44860                                                                          1
+Enter long URL: https://openeclass.uom.gr/modules/announcements/?course=MAI137&an_id=44860
+New short URL created: mk8abz
+
+--- Menu ---
+1. Insert new URL
+2. Query short URL
+3. Show statistics
+4. Exit
+Choose an option: 1
+Enter long URL: https://openeclass.uom.gr/
+New short URL created: ts51rv
+
+--- Menu ---
+1. Insert new URL
+2. Query short URL
+3. Show statistics
+4. Exit
+Choose an option: 2
+Enter short code: 4phehl
+Long URL: https://zapier.com/blog/best-url-shorteners/?utm_adgroup=DSA-BestApps-URL_Shorteners
+
+--- Menu ---
+1. Insert new URL
+2. Query short URL
+3. Show statistics
+4. Exit
+Choose an option: 2
+Enter short code: ts51rv
+Long URL: https://openeclass.uom.gr/
+
+--- Menu ---
+1. Insert new URL
+2. Query short URL
+3. Show statistics
+4. Exit
+Choose an option: 2
+Enter short code: ts51rv
+Long URL: https://openeclass.uom.gr/
+
+--- Menu ---
+1. Insert new URL
+2. Query short URL
+3. Show statistics
+4. Exit
+Choose an option: 2
+Enter short code: ts51rv
+Long URL: https://openeclass.uom.gr/
+
+--- Menu ---
+1. Insert new URL
+2. Query short URL
+3. Show statistics
+4. Exit
+Choose an option: 2
+Enter short code: ts51rv
+Long URL: https://openeclass.uom.gr/
+
+--- Menu ---
+1. Insert new URL
+2. Query short URL
+3. Show statistics
+4. Exit
+Choose an option: 2
+Enter short code: ts51rv
+Long URL: https://openeclass.uom.gr/
+
+--- Menu ---
+1. Insert new URL
+2. Query short URL
+3. Show statistics
+4. Exit
+Choose an option: 3
+User 'Bob' has inserted 3 URLs:
+• 4phehl → https://zapier.com/blog/best-url-shorteners/?utm_adgroup=DSA-BestApps-URL_Shorteners
+• mk8abz → https://openeclass.uom.gr/modules/announcements/?course=MAI137&an_id=44860
+• ts51rv → https://openeclass.uom.gr/
+Average views per short URL: 3.00
+
+--- Menu ---
+1. Insert new URL
+2. Query short URL
+3. Show statistics
+4. Exit
+Choose an option: 4
+Goodbye!
+# python main.py
+Welcome to Redis URL Shortener
+Please enter your username or email: Alice
+
+--- Menu ---
+1. Insert new URL
+2. Query short URL
+3. Show statistics
+4. Exit
+Choose an option: 1
+Enter long URL: https://www.discogs.com/artist/3748767-Villagers-Of-Ioannina-City
+New short URL created: rvmi0t
+
+--- Menu ---
+1. Insert new URL
+2. Query short URL
+3. Show statistics
+4. Exit
+Choose an option: 2
+Enter short code: rvmi0t
+Long URL: https://www.discogs.com/artist/3748767-Villagers-Of-Ioannina-City
+
+--- Menu ---
+1. Insert new URL
+2. Query short URL
+3. Show statistics
+4. Exit
+Choose an option: 2
+Enter short code: rvmi0t
+Long URL: https://www.discogs.com/artist/3748767-Villagers-Of-Ioannina-City
+
+--- Menu ---
+1. Insert new URL
+2. Query short URL
+3. Show statistics
+4. Exit
+Choose an option: 1
+Enter long URL: https://realpython.com/python-redis/
+New short URL created: x1aozv
+
+--- Menu ---
+1. Insert new URL
+2. Query short URL
+3. Show statistics
+4. Exit
+Choose an option: 2
+Enter short code: werwe
+Short code 'werwe' not found.
+
+--- Menu ---
+1. Insert new URL
+2. Query short URL
+3. Show statistics
+4. Exit
+Choose an option: 2
+Enter short code: x1aozv
+Long URL: https://realpython.com/python-redis/
+
+--- Menu ---
+1. Insert new URL
+2. Query short URL
+3. Show statistics
+4. Exit
+Choose an option: 3
+User 'Alice' has inserted 2 URLs:
+• rvmi0t → https://www.discogs.com/artist/3748767-Villagers-Of-Ioannina-City
+• x1aozv → https://realpython.com/python-redis/
+Average views per short URL: 2.25
+
+--- Menu ---
+1. Insert new URL
+2. Query short URL
+3. Show statistics
+4. Exit
+Choose an option: 4
+Goodbye!
+# 
+
+Script done on 2025-04-23 17:31:39+00:00 [COMMAND_EXIT_CODE="0"]
